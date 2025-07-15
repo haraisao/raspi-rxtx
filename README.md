@@ -1,6 +1,11 @@
 # librxtx for Raspbian(bookworm)
 
 ## Quick start
++ sudo cp -a raspbian-bookworm/lib/* /usr/local/lib
++ export LD_LIBRARY_PATH=/usr/local/lib
++ javac -cp /usr/local/lib/RXTXcomm.jar <your java program>
+
+## Build from source code
 
 + sudo ln -s /usr/src/linux-headers-6.12.25+rpt-rpi-2712/include/generated/utsrelease.h /usr/include/linux/utsrelease.h
 + cd rxtx-2.2pre2

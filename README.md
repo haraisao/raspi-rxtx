@@ -3,7 +3,8 @@
 ## Quick start
 + sudo cp -a raspbian-bookworm/lib/* /usr/local/lib
 + export LD_LIBRARY_PATH=/usr/local/lib
-+ javac -cp /usr/local/lib/RXTXcomm.jar <your java program>
++ javac -cp /usr/local/lib/RXTXcomm.jar your_java_program.java
++ java -cp .:/usr/local/lib/RXTXcomm.jhar your_java_program
 
 ## Build from source code
 

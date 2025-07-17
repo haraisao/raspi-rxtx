@@ -22124,6 +22124,7 @@ elif  test -d $JPATH/lib
 fi
 
 #  http://www.tolstoy.com/samizdat/sysprops.html
+echo "========== $OS_NAME"
 
  case $OS_NAME in
 Linux)
